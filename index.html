@@ -1,23 +1,483 @@
 <!doctype html>
-<html lang="pt-BR"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Viva Loja</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-</head><body>
-<div class="bg-dark text-white text-center py-2 small">Frete grátis acima de R$ 199,00</div>
-<header class="border-bottom"><div class="container"><nav class="navbar navbar-expand-lg py-3"><a class="navbar-brand fw-bold fs-3 text-primary" href="#inicio">VIVA LOJA</a><button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="menu"><ul class="navbar-nav me-auto"><li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#categorias">Categorias</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="#categorias">Eletrônicos</a></li><li><a class="dropdown-item" href="#categorias">Casa</a></li><li><a class="dropdown-item" href="#categorias">Moda</a></li></ul></li><li class="nav-item"><a class="nav-link" href="#ofertas">Ofertas</a></li></ul><form class="d-flex my-2 my-lg-0"><input class="form-control me-2" placeholder="O que você procura?"><button class="btn btn-outline-primary">Buscar</button></form><a class="btn btn-outline-dark ms-lg-3" href="#produtos">🛒 <span class="badge text-bg-danger">2</span></a></div></nav></div></header>
-<main id="inicio"><section class="container my-4"><div id="banner" class="carousel slide" data-bs-ride="carousel"><div class="carousel-inner rounded overflow-hidden"><div class="carousel-item active"><img class="d-block w-100" src="https://placehold.co/1200x420/0d6efd/ffffff?text=Tecnologia+para+o+seu+dia" alt="Tecnologia"></div><div class="carousel-item"><img class="d-block w-100" src="https://placehold.co/1200x420/198754/ffffff?text=Sua+casa+mais+bonita" alt="Casa"></div><div class="carousel-item"><img class="d-block w-100" src="https://placehold.co/1200x420/dc3545/ffffff?text=Ofertas+imperdiveis" alt="Ofertas"></div></div><button class="carousel-control-prev" data-bs-target="#banner" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button><button class="carousel-control-next" data-bs-target="#banner" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button></div></section>
-<section id="categorias" class="container py-4"><h1 class="h2 text-center mb-4">Compre por categoria</h1><div class="row g-3"><div class="col-4 col-md-2"><div class="card text-center h-100"><img src="https://placehold.co/180x130?text=Eletronicos" class="card-img-top" alt="Eletrônicos"><div class="card-body p-2">Eletrônicos</div></div></div><div class="col-4 col-md-2"><div class="card text-center h-100"><img src="https://placehold.co/180x130?text=Casa" class="card-img-top" alt="Casa"><div class="card-body p-2">Casa</div></div></div><div class="col-4 col-md-2"><div class="card text-center h-100"><img src="https://placehold.co/180x130?text=Moda" class="card-img-top" alt="Moda"><div class="card-body p-2">Moda</div></div></div><div class="col-4 col-md-2"><div class="card text-center h-100"><img src="https://placehold.co/180x130?text=Beleza" class="card-img-top" alt="Beleza"><div class="card-body p-2">Beleza</div></div></div><div class="col-4 col-md-2"><div class="card text-center h-100"><img src="https://placehold.co/180x130?text=Esporte" class="card-img-top" alt="Esporte"><div class="card-body p-2">Esporte</div></div></div><div class="col-4 col-md-2"><div class="card text-center h-100"><img src="https://placehold.co/180x130?text=Livros" class="card-img-top" alt="Livros"><div class="card-body p-2">Livros</div></div></div></div></section>
-<section id="produtos" class="bg-light py-5"><div class="container"><h2 class="text-center mb-4">Produtos em destaque</h2><div class="row g-4">
-<div class="col-12 col-md-6 col-lg-3"><article class="card h-100"><img src="https://placehold.co/400x280?text=Fone+Bluetooth" class="card-img-top" alt="Fone Bluetooth"><div class="card-body d-flex flex-column"><span class="badge text-bg-danger align-self-start">Promoção</span><h3 class="h5 mt-2">Fone Bluetooth</h3><del class="text-muted">R$ 199,90</del><strong class="fs-4 text-primary">R$ 149,90</strong><button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#modalProduto" data-produto="Fone Bluetooth">Adicionar ao carrinho</button></div></article></div>
-<div class="col-12 col-md-6 col-lg-3"><article class="card h-100"><img src="https://placehold.co/400x280?text=Smartwatch" class="card-img-top" alt="Smartwatch"><div class="card-body d-flex flex-column"><span class="badge text-bg-danger align-self-start">Promoção</span><h3 class="h5 mt-2">Smartwatch Fit</h3><del class="text-muted">R$ 329,90</del><strong class="fs-4 text-primary">R$ 249,90</strong><button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#modalProduto" data-produto="Smartwatch Fit">Adicionar ao carrinho</button></div></article></div>
-<div class="col-12 col-md-6 col-lg-3"><article class="card h-100"><img src="https://placehold.co/400x280?text=Mochila" class="card-img-top" alt="Mochila"><div class="card-body d-flex flex-column"><span class="badge text-bg-danger align-self-start">Promoção</span><h3 class="h5 mt-2">Mochila Urbana</h3><del class="text-muted">R$ 159,90</del><strong class="fs-4 text-primary">R$ 119,90</strong><button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#modalProduto" data-produto="Mochila Urbana">Adicionar ao carrinho</button></div></article></div>
-<div class="col-12 col-md-6 col-lg-3"><article class="card h-100"><img src="https://placehold.co/400x280?text=Garrafa" class="card-img-top" alt="Garrafa"><div class="card-body d-flex flex-column"><span class="badge text-bg-danger align-self-start">Promoção</span><h3 class="h5 mt-2">Garrafa Térmica</h3><del class="text-muted">R$ 99,90</del><strong class="fs-4 text-primary">R$ 69,90</strong><button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#modalProduto" data-produto="Garrafa Térmica">Adicionar ao carrinho</button></div></article></div>
-</div></div></section>
-<section id="ofertas" class="container py-5"><div class="row g-4"><div class="col-12 col-md-6"><img class="img-fluid rounded" src="https://placehold.co/700x250/6610f2/ffffff?text=Semana+da+Tecnologia" alt="Banner tecnologia"></div><div class="col-12 col-md-6"><img class="img-fluid rounded" src="https://placehold.co/700x250/fd7e14/ffffff?text=Desconto+para+sua+casa" alt="Banner casa"></div></div></section>
-<section class="bg-primary text-white py-5"><div class="container"><div class="row text-center g-4"><div class="col-12 col-md-4"><h2 class="h4">🚚 Entrega rápida</h2><p>Receba com segurança.</p></div><div class="col-12 col-md-4"><h2 class="h4">🔒 Compra segura</h2><p>Dados protegidos.</p></div><div class="col-12 col-md-4"><h2 class="h4">💬 Atendimento fácil</h2><p>Conte com a equipe.</p></div></div></div></section>
-<section class="container text-center py-5"><h2>Receba novidades</h2><p>Cadastre seu e-mail para receber ofertas.</p><form class="input-group mx-auto" style="max-width:600px"><input class="form-control" type="email" placeholder="seuemail@exemplo.com" required><button class="btn btn-primary">Assinar</button></form></section></main>
-<footer class="bg-dark text-white py-5"><div class="container"><div class="row g-4"><div class="col-12 col-md-3"><h2 class="h5">Viva Loja</h2><p>Produtos para seu dia a dia.</p></div><div class="col-12 col-md-3"><h2 class="h5">Institucional</h2><p>Quem somos<br>Trabalhe conosco</p></div><div class="col-12 col-md-3"><h2 class="h5">Atendimento</h2><p>Central de ajuda<br>Trocas e devoluções</p></div><div class="col-12 col-md-3"><h2 class="h5">Redes sociais</h2><p>Instagram<br>Facebook</p></div></div></div></footer>
-<div class="modal fade" id="modalProduto" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h2 class="modal-title fs-5">Produto adicionado!</h2><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body">Você adicionou <strong id="produto">um produto</strong> ao carrinho.</div><div class="modal-footer"><button class="btn btn-secondary" data-bs-dismiss="modal">Continuar comprando</button></div></div></div></div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script><script>document.getElementById('modalProduto').addEventListener('show.bs.modal',e=>document.getElementById('produto').textContent=e.relatedTarget.dataset.produto)</script>
-</body></html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Loja do Andrew</title>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+</head>
+
+<body>
+  <!-- Faixa de aviso -->
+  <div class="bg-dark text-white text-center py-2 small">
+    Frete grátis acima de R$ 199,00
+  </div>
+
+  <!-- Menu -->
+  <header class="border-bottom">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg py-3">
+        <a class="navbar-brand fw-bold fs-3 text-primary" href="#inicio">
+          LOJA DO ANDREW
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+          aria-label="Abrir menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#inicio">Início</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="#categorias"
+              >
+                Categorias
+              </a>
+
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#categorias">
+                    Eletrônicos
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#categorias">
+                    Casa
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#categorias">
+                    Moda
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#ofertas">Ofertas</a>
+            </li>
+          </ul>
+
+          <form class="d-flex my-2 my-lg-0">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="O que você procura?"
+            >
+            <button class="btn btn-outline-primary" type="submit">
+              Buscar
+            </button>
+          </form>
+
+          <a class="btn btn-outline-dark ms-lg-3" href="#produtos">
+            🛒 <span class="badge text-bg-danger">2</span>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <!-- Carrossel -->
+    <section class="container my-4">
+      <div
+        id="banner"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner rounded overflow-hidden">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="https://placehold.co/1200x420/0d6efd/ffffff?text=Tecnologia+para+o+seu+dia"
+              alt="Tecnologia"
+            >
+          </div>
+
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="https://placehold.co/1200x420/198754/ffffff?text=Sua+casa+mais+bonita"
+              alt="Casa"
+            >
+          </div>
+
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="https://placehold.co/1200x420/dc3545/ffffff?text=Ofertas+imperdiveis"
+              alt="Ofertas"
+            >
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#banner"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#banner"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Categorias -->
+    <section id="categorias" class="container py-4">
+      <h1 class="h2 text-center mb-4">Compre por categoria</h1>
+
+      <div class="row g-3">
+        <div class="col-4 col-md-2">
+          <div class="card text-center h-100">
+            <img
+              src="https://placehold.co/180x130?text=Eletronicos"
+              class="card-img-top"
+              alt="Eletrônicos"
+            >
+            <div class="card-body p-2">Eletrônicos</div>
+          </div>
+        </div>
+
+        <div class="col-4 col-md-2">
+          <div class="card text-center h-100">
+            <img
+              src="https://placehold.co/180x130?text=Casa"
+              class="card-img-top"
+              alt="Casa"
+            >
+            <div class="card-body p-2">Casa</div>
+          </div>
+        </div>
+
+        <div class="col-4 col-md-2">
+          <div class="card text-center h-100">
+            <img
+              src="https://placehold.co/180x130?text=Moda"
+              class="card-img-top"
+              alt="Moda"
+            >
+            <div class="card-body p-2">Moda</div>
+          </div>
+        </div>
+
+        <div class="col-4 col-md-2">
+          <div class="card text-center h-100">
+            <img
+              src="https://placehold.co/180x130?text=Beleza"
+              class="card-img-top"
+              alt="Beleza"
+            >
+            <div class="card-body p-2">Beleza</div>
+          </div>
+        </div>
+
+        <div class="col-4 col-md-2">
+          <div class="card text-center h-100">
+            <img
+              src="https://placehold.co/180x130?text=Esporte"
+              class="card-img-top"
+              alt="Esporte"
+            >
+            <div class="card-body p-2">Esporte</div>
+          </div>
+        </div>
+
+        <div class="col-4 col-md-2">
+          <div class="card text-center h-100">
+            <img
+              src="https://placehold.co/180x130?text=Livros"
+              class="card-img-top"
+              alt="Livros"
+            >
+            <div class="card-body p-2">Livros</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Produtos -->
+    <section id="produtos" class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Produtos em destaque</h2>
+
+        <div class="row g-4">
+          <div class="col-12 col-md-6 col-lg-3">
+            <article class="card h-100">
+              <img
+                src="https://placehold.co/400x280?text=Fone+Bluetooth"
+                class="card-img-top"
+                alt="Fone Bluetooth"
+              >
+
+              <div class="card-body d-flex flex-column">
+                <span class="badge text-bg-danger align-self-start">
+                  Promoção
+                </span>
+
+                <h3 class="h5 mt-2">Fone Bluetooth</h3>
+                <del class="text-muted">R$ 199,90</del>
+                <strong class="fs-4 text-primary">R$ 149,90</strong>
+
+                <button
+                  class="btn btn-primary mt-auto"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalProduto"
+                  data-produto="Fone Bluetooth"
+                >
+                  Adicionar ao carrinho
+                </button>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <article class="card h-100">
+              <img
+                src="https://placehold.co/400x280?text=Smartwatch"
+                class="card-img-top"
+                alt="Smartwatch"
+              >
+
+              <div class="card-body d-flex flex-column">
+                <span class="badge text-bg-danger align-self-start">
+                  Promoção
+                </span>
+
+                <h3 class="h5 mt-2">Smartwatch Fit</h3>
+                <del class="text-muted">R$ 329,90</del>
+                <strong class="fs-4 text-primary">R$ 249,90</strong>
+
+                <button
+                  class="btn btn-primary mt-auto"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalProduto"
+                  data-produto="Smartwatch Fit"
+                >
+                  Adicionar ao carrinho
+                </button>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <article class="card h-100">
+              <img
+                src="https://placehold.co/400x280?text=Mochila"
+                class="card-img-top"
+                alt="Mochila"
+              >
+
+              <div class="card-body d-flex flex-column">
+                <span class="badge text-bg-danger align-self-start">
+                  Promoção
+                </span>
+
+                <h3 class="h5 mt-2">Mochila Urbana</h3>
+                <del class="text-muted">R$ 159,90</del>
+                <strong class="fs-4 text-primary">R$ 119,90</strong>
+
+                <button
+                  class="btn btn-primary mt-auto"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalProduto"
+                  data-produto="Mochila Urbana"
+                >
+                  Adicionar ao carrinho
+                </button>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <article class="card h-100">
+              <img
+                src="https://placehold.co/400x280?text=Garrafa"
+                class="card-img-top"
+                alt="Garrafa"
+              >
+
+              <div class="card-body d-flex flex-column">
+                <span class="badge text-bg-danger align-self-start">
+                  Promoção
+                </span>
+
+                <h3 class="h5 mt-2">Garrafa Térmica</h3>
+                <del class="text-muted">R$ 99,90</del>
+                <strong class="fs-4 text-primary">R$ 69,90</strong>
+
+                <button
+                  class="btn btn-primary mt-auto"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalProduto"
+                  data-produto="Garrafa Térmica"
+                >
+                  Adicionar ao carrinho
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Banners -->
+    <section id="ofertas" class="container py-5">
+      <div class="row g-4">
+        <div class="col-12 col-md-6">
+          <img
+            class="img-fluid rounded"
+            src="https://placehold.co/700x250/6610f2/ffffff?text=Semana+da+Tecnologia"
+            alt="Banner tecnologia"
+          >
+        </div>
+
+        <div class="col-12 col-md-6">
+          <img
+            class="img-fluid rounded"
+            src="https://placehold.co/700x250/fd7e14/ffffff?text=Desconto+para+sua+casa"
+            alt="Banner casa"
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefícios -->
+    <section class="bg-primary text-white py-5">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-12 col-md-4">
+            <h2 class="h4">🚚 Entrega rápida</h2>
+            <p>Receba com segurança.</p>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <h2 class="h4">🔒 Compra segura</h2>
+            <p>Dados protegidos.</p>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <h2 class="h4">💬 Atendimento fácil</h2>
+            <p>Conte com a equipe.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="container text-center py-5">
+      <h2>Receba novidades</h2>
+      <p>Cadastre seu e-mail para receber ofertas.</p>
+
+      <form class="input-group mx-auto" style="max-width: 600px;">
+        <input
+          class="form-control"
+          type="email"
+          placeholder="seuemail@exemplo.com"
+          required
+        >
+        <button class="btn btn-primary" type="submit">
+          Assinar
+        </button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-12 col-md-3">
+          <h2 class="h5">Loja do Andrew</h2>
+          <p>Produtos para seu dia a dia.</p>
+        </div>
+
+        <div class="col-12 col-md-3">
+          <h2 class="h5">Institucional</h2>
+          <p>Quem somos<br>Trabalhe conosco</p>
+        </div>
+
+        <div class="col-12 col-md-3">
+          <h2 class="h5">Atendimento</h2>
+          <p>Central de ajuda<br>Trocas e devoluções</p>
+        </div>
+
+        <div class="col-12 col-md-3">
+          <h2 class="h5">Redes sociais</h2>
+          <p>Instagram<br>Facebook</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal fade" id="modalProduto" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5">Produto adicionado!</h2>
+
+          <button
+            class="btn-close"
+            type="button"
+            data-bs-dismiss="modal"
+            aria-label="Fechar"
+          ></button>
+        </div>
+
+        <div class="modal-body">
+          Você adicionou <strong id="produto">um produto</strong> ao carrinho.
+        </div>
+
+        <div class="modal-footer">
+          <button
+            class="btn btn-secondary"
+            type="button"
+            data-bs-dismiss="modal"
+          >
+            Continuar comprando
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript do Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    document.getElementById("modalProduto").addEventListener(
+      "show.bs.modal",
+      function (evento) {
+        document.getElementById("produto").textContent =
+          evento.relatedTarget.dataset.produto;
+      }
+    );
+  </script>
+</body>
+</html>
